@@ -14,20 +14,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="So 1" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextSo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextSo1"
+        android:layout_alignStart="@+id/editTextSo1"
+        android:layout_below="@+id/editTextSo1"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="So 2"
-        android:layout_below="@+id/editTextSo1"
-        android:layout_alignLeft="@+id/editTextSo1"
-        android:layout_alignStart="@+id/editTextSo1" />
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/buttonTong"
@@ -50,4 +48,22 @@
         android:layout_below="@+id/buttonTong"
         android:layout_marginTop="42dp"
         android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editTextSo1"
+        android:text="Số 1" />
+
+    <TextView
+        android:id="@+id/textViewNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editTextSo2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Số 2"/>
 </RelativeLayout>
