@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vuqv.tinhtong.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextSo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="So 1" />
+
+    <EditText
+        android:id="@+id/editTextSo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="So 2"
+        android:layout_below="@+id/editTextSo1"
+        android:layout_alignLeft="@+id/editTextSo1"
+        android:layout_alignStart="@+id/editTextSo1" />
+
+    <Button
+        android:id="@+id/buttonTong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextSo2"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="39dp"
+        android:text="Tong" />
+
+    <TextView
+        android:id="@+id/textViewKQ"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/editTextSo2"
+        android:layout_alignRight="@+id/editTextSo2"
+        android:layout_below="@+id/buttonTong"
+        android:layout_marginTop="42dp"
+        android:text="TextView" />
+</RelativeLayout>
